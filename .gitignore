@@ -1,0 +1,8 @@
+node_modules
+
+yarn.lock
+yarn-error.log
+dist/
+.yarn
+.pnp.*
+.wwebjs_*
