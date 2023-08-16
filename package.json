@@ -19,8 +19,9 @@
     "watch": "swc src --out-dir dist --watch --source-maps inline",
     "build": "swc src --out-dir dist --source-maps inline",
     "build:tsp": "tspc",
-    "start": "node dist/index.js"
-  },
+    "start:server": "yarn build && node dist/index.js",
+    "start:wa": "yarn build && node dist/wlayer/index.js"
+},
   "dependencies": {
     "chalk": "^5.3.0",
     "fastify": "^4.21.0",
